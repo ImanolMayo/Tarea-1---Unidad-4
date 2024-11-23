@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos Básicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Conceptos Básicos</h1>
+</header>
+
+<nav>
+    <a href="#mecanismos-seguridad">Mecanismos de seguridad en formularios</a>
+    <a href="#ajax">Introducción a AJAX</a>
+    <a href="#jquery">JQuery</a>
+    <a href="#mootools">Mootools</a>
+    <a href="#prototype">Prototype</a>
+    <a href="index.html">Regresar al índice</a>
+</nav>
+
+<main>
+    <section id="mecanismos-seguridad">
+        <h2>Mecanismos de Seguridad en Formularios</h2>
+        <p>
+            Los mecanismos de seguridad en formularios son esenciales para proteger a los usuarios y sistemas de ataques como inyección SQL, cross-site scripting (XSS), y suplantación de solicitudes (CSRF). 
+        </p>
+        <ul>
+            <li><strong>Validación:</strong> Garantiza que los datos ingresados cumplen con los requisitos.</li>
+            <li><strong>Sanitización:</strong> Elimina caracteres o datos potencialmente dañinos.</li>
+            <li><strong>CSRF Tokens:</strong> Previenen la ejecución de acciones malintencionadas.</li>
+        </ul>
+        <h3>Captchas</h3>
+        <p>
+            El sistema de seguridad para formularios reCaptcha es gratuito en la mayoría de los casos. 
+            Requiere registro para la obtención de un par de claves, la de sitio web y la clave secreta.
+            Esto lo podemos hacer fácilmente desde la sección «Admin Console» de la página de reCaptcha
+        </p>
+        <h3>¿Cuándo se usan?</h3>
+        <p>
+            En cualquier sistema que maneje datos sensibles o permita interacción con usuarios mediante formularios.
+        </p>
+    </section>
+
+    <section id="ajax">
+        <h2>Introducción a AJAX</h2>
+        <p>
+            AJAX significa JavaScript asíncrono y XML (Asynchronous JavaScript and XML). 
+            Es un conjunto de técnicas de desarrollo web que permiten que las aplicaciones web funcionen de forma asíncrona, 
+            procesando cualquier solicitud al servidor en segundo plano. 
+        </p>
+        <h3>¿Para qué se usa?</h3>
+        <p>
+            Para mejorar la experiencia del usuario, optimizar tiempos de carga y evitar interrupciones.
+        </p>
+        <h3>¿Cuándo se usa?</h3>
+        <p>
+            En aplicaciones web interactivas como chats en tiempo real o buscadores.
+        </p>
+        <h3>Diagrama</h3>
+        <img src="diagramaAjax.png" alt="diagrama de ajax" width="ancho" height="alto">
+    </section>
+
+    <section id="jquery">
+        <h2>JQuery</h2>
+        <p>
+            JQuery simplifica el uso de JavaScript proporcionando una API amigable y potente para trabajar con el DOM, eventos, y animaciones.
+            jQuery facilita la escritura de código JavaScript al proporcionar una sintaxis simplificada y abstraer muchas tareas comunes.
+            JQuery es una librería que contiene otras funcionalidades adicionales, que nos permiten agregarle a las páginas mucha más interacción y efectos.
+        </p>
+        <img src="jquery.png" alt="jquery" width="ancho" height="alto">
+        <h3>¿Para qué se usa?</h3>
+        <p>
+            Para acelerar el desarrollo y garantizar compatibilidad entre navegadores.
+        </p>
+        <h3>¿Cuándo se usa?</h3>
+        <p>
+            En proyectos donde se requiere manipulación intensiva de elementos y compatibilidad con navegadores antiguos.
+        </p>
+    </section>
+
+    <section id="mootools">
+        <h2>Mootools</h2>
+        <p>
+            El framework MooTools es un conjunto compacto y modular de herramientas para desarrolladores profesionales en JavaScript 
+            que se distingue por sus posibilidades de aplicación gracias a un elegante y bien documentado grupo de API y por estar orientado a objetos. 
+            MooTools pone a disposición del desarrollador varias funciones y clases para facilitar la programación y el diseño de proyectos web modernos 
+            y simplificar en gran medida el proceso de trabajo. Además, su diseño modular lo hace escalable.
+        </p>
+        <img src="mootools.png" alt="mootools" width="ancho" height="alto">
+        <h3>¿Para qué se usa?</h3>
+        <p>
+            Para implementar componentes avanzados y efectos visuales en proyectos web.
+        </p>
+        <h3>¿Cuándo se usa?</h3>
+        <p>
+            En sitios que necesitan animaciones avanzadas y control detallado del comportamiento de elementos.
+        </p>
+    </section>
+
+    <section id="prototype">
+        <h2>Prototype</h2>
+        <p>
+            Prototype extiende JavaScript para facilitar tareas como el manejo de datos dinámicos y la interacción con el servidor.
+            JavaScript es a menudo descrito como un lenguaje basado en prototipos 
+            - para proporcionar mecanismos de herencia, los objetos pueden tener un objeto prototipo, 
+            el cual actúa como un objeto plantilla que hereda métodos y propiedades.
+            Un objeto prototipo del objeto puede tener a su vez otro objeto prototipo, 
+            el cual hereda métodos y propiedades, y así sucesivamente. 
+            Esto es conocido con frecuencia como la cadena de prototipos, 
+            y explica por qué objetos diferentes pueden tener disponibles propiedades y métodos definidos en otros objetos.
+        </p>
+        <img src="prototype.png" alt="prototype" width="ancho" height="alto">
+        <h3>¿Para qué se usa?</h3>
+        <p>
+            Para acelerar el desarrollo y gestionar datos de manera eficiente.
+        </p>
+        <h3>¿Cuándo se usa?</h3>
+        <p>
+            En aplicaciones que necesitan interacción compleja entre cliente y servidor.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p><a href="index.html">Regresar al índice</a></p>
+    <p>© 2024 - Conceptos Básicos</p>
+</footer>
+
+</body>
+</html>

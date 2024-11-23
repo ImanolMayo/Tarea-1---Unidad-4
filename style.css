@@ -1,0 +1,77 @@
+*{  /*Con el asterisco selecciono todos los elementos del html*/
+    margin:0px;
+    padding: 0px; /*Es el margen para una caja*/
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif; /* ponemos 3 opciones en caso que el sistema no cuenta con una */
+}
+
+#contenedor {
+    /*width: 70%*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+header {
+    background: red;
+    height:100px; /*caja*/
+    width:100%;
+    margin:0px;
+    text-align: center;
+    line-height: 100px; /*misma altura que la caja*/
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+nav ul li {
+    float: left; /*coloca la lista en fomra lineal*/
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.clearfix{
+    clear: both; /*fija los elementos en su sitio*/
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px); /*contenido*/
+    min-height: 500px; /*damos altura o espacio a los cuadros*/
+    background: green;
+}
+
+.article{ /*podemos tener repetidas tantas clases como queramos, pero no elementos ID*/
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    background: orange;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
